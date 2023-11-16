@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f5eb; /* Creamy background color */
+}
+
+.container {
+    text-align: center;
+    background-color: #fdd977; /* Cheesy yellow background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #944317; /* Cheddar cheese color */
+}
+
+label {
+    font-size: 18px;
+    color: #ebc334; /* Yellow cheese color */
+    display: block;
+    margin-bottom: 10px;
+}
+
+#cheeseInput {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #d2b45b; /* Gouda cheese color */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #944317; /* Cheddar cheese color */
+    color: #f8f5eb; /* Creamy text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #b16718; /* Darker cheddar cheese color on hover */
+}
+
+.cheese-image img {
+    max-width: 100%;
+    max-height: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
